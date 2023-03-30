@@ -1,0 +1,18 @@
+---
+title: "Tutorial5"
+author: "SASIWIPHA SRIKUEAKUN"
+date: "2023-03-30"
+output: html_document
+---
+
+```{r}
+# Libraries 
+library(tidyverse) 
+library(palmerpenguins)
+```
+
+```{r}
+library(palmerpenguins)
+ggplot(penguins, aes(x = bill_depth_mm , y = flipper_length_mm, color = species)) + geom_point()
+```
+
